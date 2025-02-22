@@ -165,7 +165,7 @@ def generate_weather_forecast(city):
     return forecast
 
 
-agriculture_rag_chain = initialize_ragbot(embedding_path='agriculture/')
+agriculture_rag_chain = initialize_ragbot(embedding_path='nongye/')
 landscape_rag_chain = initialize_ragbot(embedding_path='fengjing/')
 
 
